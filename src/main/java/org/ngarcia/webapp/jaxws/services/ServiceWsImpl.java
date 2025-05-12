@@ -7,6 +7,7 @@ import org.ngarcia.webapp.jaxws.models.Curso;
 import java.util.Arrays;
 import java.util.List;
 
+//OJO: es una instancia para todos los clientes
 @WebService(endpointInterface = "org.ngarcia.webapp.jaxws.services.ServicioWs")
 public class ServiceWsImpl implements ServicioWs {
 
